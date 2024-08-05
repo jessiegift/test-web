@@ -34,7 +34,7 @@ const App = () => {
           className=" bg-slate-500 aspect-square rounded-3xl justify-center flex items-center gap-10"
         >
           <motion.div
-           className=" w-20 h-20 bg-orange-400 rounded-lg"
+           className=" w-20 h-20 bg-orange-700 rounded-lg"
            initial={{ opacity: 0, y: 100 }}
            animate={{ opacity: 1, y: 0 }}
            transition={{ duration: 1, ease: 'backInOut', delay: 0.2}}
